@@ -2,8 +2,7 @@
 
 A Python project demonstrating single-object and multi-object tracking using OpenCV's legacy tracker API (`cv2.legacy`). Supports tracking on a video file or a **live phone camera feed** streamed over Wi-Fi.
 
-![Tracking demo](docs/images/tracking-demo.png)
-*Replace this image with a screenshot/GIF of `ObjectTracking.py` tracking an object with the CSRT bounding box.*
+
 
 ---
 

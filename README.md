@@ -96,13 +96,11 @@ python ObjectTracking.py
 2. **Drag a box** around the object you want to track.
 3. Press **Enter** or **Space** to confirm the selection (press `c` to cancel and redraw).
 
-![ROI selection](docs/images/roi-selection.png)
-*Replace with a screenshot of the ROI selection window (`cv2.selectROI`).*
+
 
 4. Tracking starts automatically — a colored rectangle follows the object frame by frame, with the tracker name displayed on screen.
 
-![Tracking in progress](docs/images/tracking-in-progress.png)
-*Replace with a screenshot of the video mid-track, showing the bounding box and tracker label.*
+
 
 5. If tracking is lost, `"Tracking Failure"` is displayed in red.
 6. Press **ESC** to quit.
@@ -121,8 +119,7 @@ python Multiple_Object_Tracking.py
    - Press **`Q`** once you're done selecting, to start tracking.
 3. All selected objects are tracked simultaneously, each with its own colored bounding box.
 
-![Multi-object tracking](docs/images/multi-object-tracking.png)
-*Replace with a screenshot showing multiple bounding boxes on different objects.*
+
 
 4. Press **ESC** to quit.
 
@@ -134,8 +131,7 @@ You can track objects live using your phone's camera instead of a video file, us
 2. **Connect your phone to the same Wi-Fi network** as your computer.
 3. Open the app and tap **"Start server"**.
 
-![IP Webcam start screen](docs/images/ip-webcam-start.png)
-*Replace with a screenshot of the IP Webcam app's start screen / running server showing the IP address.*
+
 
 4. Note the URL shown on the phone's screen, e.g. `http://192.168.0.49:8080`.
 5. Verify it works by opening `http://192.168.0.49:8080/video` in a browser on your computer — you should see a live MJPEG stream.
